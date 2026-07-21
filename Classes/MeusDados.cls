@@ -83,12 +83,12 @@ Method DiscountVerification()
 
 Method Triangle() 
 {
-    Set lado1 = 5
-    Set lado2 = 9
-    Set lado3 = 3
-    If (lado1 = lado2) && (lado1 = lado3) && (lado2 = lado3) {
+    Set size1 = 5
+    Set size2 = 9
+    Set size3 = 3
+    If (size1 = size2) && (size1 = size3) && (size2 = size3) {
         Write "Equilateral"
-    } ElseIf (lado1 = lado2) || (lado1 = lado3) || (lado2 = lado3){
+    } ElseIf (size1 = size2) || (size1 = size3) || (size2 = size3){
         Write "Isosceles"
     } Else {
         Write "Scalene"
